@@ -28,6 +28,12 @@ class mycalculator:
 
         self.button=tk.Button(self.root, text='+/-', height=3, width=10)
         self.button.place(x=80, y=35)
+
+        self.button=tk.Button(self.root, text='8', height=3, width=10)
+        self.button.place(x=80, y=85)
+
+        self.button=tk.Button(self.root, text='5', height=3, width=10)
+        self.button.place(x=80, y=135)
         
 
         self.root.mainloop()
